@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "pull-container": "sudo docker pull kylecoberly/vue-cypress-practice",
-        "serve-container": "sudo docker run -p 8080:8080 vue-cypress-practice",
+        "serve-container": "sudo docker run -p 8080:8080 kylecoberly/vue-cypress-practice",
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "test:unit": "vue-cli-service test:unit",
